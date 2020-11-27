@@ -1,6 +1,5 @@
 function square(number,square) {
-    return number**square
-    // symbol ** is mean square
+    return Math.pow(number,square)
 }
 
-console.log(square(3,5))
+console.log(square(7,5))
